@@ -33,7 +33,7 @@ object Main10{
 
 
     println("----------------------------------------------------------------------------------------------------------------------------------------------")
-    println("Multidimensional Array ---Array.ofDim[Int](n1, n2) is used to create a multidimensional array. Check out how it is done in Line # 7")
+    println("Multidimensional Array ---Array.ofDim[Int](n1, n2) is used to create a multidimensional array. Check out how it is done in Line # 8")
 
     for(i <- 0 to 1){
       for(j <- 0 until 2){
@@ -41,10 +41,6 @@ object Main10{
         println("=" + a.newArray(i)(j))
       }
     }
-
-
-
-
 
   }
 }
