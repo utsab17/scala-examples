@@ -27,23 +27,19 @@ def main(args: Array[String]): Unit = {
 
   var obj6 = new ExampleSeven(topic = "Overriding default values");
   println("Object " + obj6 + " has values " + obj6.topic + " and " + obj6.number + ". Topic field is taken as an argument while creating the object. ")
-   println("Specified field will replace the default value which is provided in class declaration")
+  println("Specified field will replace the default value which is provided in class declaration")
 
   println("-------------------------------------------------------------------------------------------------------------------------------------------------------")
 
 
   println("LAMBDA EXPRESSIONS. In Scala, '=>' notation is used to declare lambda functions ")
   println("Expressions in Scala start with { and end with }. Therefore, a lambda expression must be surrounded with curly brackets. Please check line # 42 ")
-  var g : List[Int] = List(1,2,3,5);
+  var g: List[Int] = List(1, 2, 3, 5);
 
   println(g);
 
   println("Using the lambda expression, we are printing each integer in the list g multiplied by two. Check out how it is done in Line # 42")
-  g.foreach{i: Int => println(i*2)}
-
-
-
-
+  g.foreach { i: Int => println(i * 2) }
 
 
 }

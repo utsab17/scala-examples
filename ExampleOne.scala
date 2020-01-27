@@ -21,7 +21,7 @@ class ExampleOne {
   }
 
 
-  def letsPatternMarch(x : Int) : String = x match {
+  def letsPatternMatch(x : Int) : String = x match {
 
     case 0 => "Pattern matched to case 0 - please take a look at how this is being printed"
     case 1 => "Pattern matched to case 1 - please take a look at how this is being printed"
@@ -75,7 +75,7 @@ object Main extends Enumeration
     printf("%s has successfully been converted from String to Int %d .", result1, newInt)
     println();
     println();
-    val newStr = obj.letsPatternMarch(newInt); //method which uses pattern-matching
+    val newStr = obj.letsPatternMatch(newInt); //method which uses pattern-matching
     println(newStr);
     println();
 
